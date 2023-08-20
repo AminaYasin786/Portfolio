@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<!-- saved from url=(0022)http://localhost:3001/ -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <link rel="icon" href="http://localhost:3001/favicon.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#000000">
+    <meta name="description" content="Web site created using create-react-app">
+    <link rel="apple-touch-icon" href="http://localhost:3001/logo192.png">
+   
+    <link rel="manifest" href="http://localhost:3001/manifest.json">
+    <link rel="stylesheet" href="./React App_files/Josefin+Sans">
+    <title>React App</title>
+  <script defer="" src="./React App_files/bundle.js.download"></script><style>* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    background-color: #d2dbdd;
+}
+.heading_style {
+    padding: 30px 0;
+    text-align: center;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    font-size: 13px;
+    letter-spacing: 2px;
+    font-weight: 500;
+    color: #868686;
+    background-color: #fff;
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+}
+.cards {
+    height: auto;
+    width: 100%;
+}
+.card{
+    /* margin:25px; */
+    margin: 6%;
+    transition: all 0.4s cubic-bezier(0.175, 0.885, 0, 1);
+    background-color: #fff;
+    width: 21.25%;
+    border-radius: 12px;
+    box-shadow: 0px 13px 10px -7px rgba(0, 0, 0, 0.1 );
+    float: left;
+}
+.card:hover {
+    box-shadow:0px 30px 18px -8px black;
+    transform: scale(1.05, 1.05);
+}
+.card__img {
+    width: 100%;
+    height: 235px;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+}
+.card__info {
+    background-color: #fff;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+    padding: 16px 24px 24px 24px;
+    background-color: #fff;
+}
+.card__category {
+    font-family: sans-serif;
+    text-transform: uppercase;
+    font-size: 13px;
+    letter-spacing: 2px;
+    font-weight: 500;
+    color: #868686;
+    background-color: #fff;
+}
+
+.card__title {
+    margin-top: 5px;
+    margin-bottom: 10px;
+    font-family: sans-serif;
+    background-color: #fff;
+    text-transform: capitalize;
+}
+button{
+    padding: 5px 8px;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    font-size: 13px;
+    letter-spacing: 2px;
+    font-weight: 500;
+    color: #868686;
+    background-color: #fff;
+    outline: none;
+    border: 1px solid black;
+    cursor: pointer;
+}
+@media(max-width:768px){
+.card {
+    float: none;
+    margin: 5%;
+    width: 90%;
+}
+}
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8uL3NyYy9pbmRleC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7SUFDSSxzQkFBc0I7SUFDdEIsVUFBVTtJQUNWLFNBQVM7SUFDVCx5QkFBeUI7QUFDN0I7QUFDQTtJQUNJLGVBQWU7SUFDZixrQkFBa0I7SUFDbEIsdUJBQXVCO0lBQ3ZCLHlCQUF5QjtJQUN6QixlQUFlO0lBQ2YsbUJBQW1CO0lBQ25CLGdCQUFnQjtJQUNoQixjQUFjO0lBQ2Qsc0JBQXNCO0lBQ3RCLGlCQUFpQjtJQUNqQixtQkFBbUI7QUFDdkI7QUFDQTtJQUNJLFlBQVk7SUFDWixXQUFXO0FBQ2Y7QUFDQTtJQUNJLGlCQUFpQjtJQUNqQixVQUFVO0lBQ1YscURBQXFEO0lBQ3JELHNCQUFzQjtJQUN0QixhQUFhO0lBQ2IsbUJBQW1CO0lBQ25CLGtEQUFrRDtJQUNsRCxXQUFXO0FBQ2Y7QUFDQTtJQUNJLG1DQUFtQztJQUNuQyw0QkFBNEI7QUFDaEM7QUFDQTtJQUNJLFdBQVc7SUFDWCxhQUFhO0lBQ2IsNEJBQTRCO0lBQzVCLDZCQUE2QjtBQUNqQztBQUNBO0lBQ0ksc0JBQXNCO0lBQ3RCLCtCQUErQjtJQUMvQixnQ0FBZ0M7SUFDaEMsNEJBQTRCO0lBQzVCLHNCQUFzQjtBQUMxQjtBQUNBO0lBQ0ksdUJBQXVCO0lBQ3ZCLHlCQUF5QjtJQUN6QixlQUFlO0lBQ2YsbUJBQW1CO0lBQ25CLGdCQUFnQjtJQUNoQixjQUFjO0lBQ2Qsc0JBQXNCO0FBQzFCOztBQUVBO0lBQ0ksZUFBZTtJQUNmLG1CQUFtQjtJQUNuQix1QkFBdUI7SUFDdkIsc0JBQXNCO0lBQ3RCLDBCQUEwQjtBQUM5QjtBQUNBO0lBQ0ksZ0JBQWdCO0lBQ2hCLHVCQUF1QjtJQUN2Qix5QkFBeUI7SUFDekIsZUFBZTtJQUNmLG1CQUFtQjtJQUNuQixnQkFBZ0I7SUFDaEIsY0FBYztJQUNkLHNCQUFzQjtJQUN0QixhQUFhO0lBQ2IsdUJBQXVCO0lBQ3ZCLGVBQWU7QUFDbkI7QUFDQTtBQUNBO0lBQ0ksV0FBVztJQUNYLFVBQVU7SUFDVixVQUFVO0FBQ2Q7QUFDQSIsInNvdXJjZXNDb250ZW50IjpbIioge1xyXG4gICAgYm94LXNpemluZzogYm9yZGVyLWJveDtcclxuICAgIHBhZGRpbmc6IDA7XHJcbiAgICBtYXJnaW46IDA7XHJcbiAgICBiYWNrZ3JvdW5kLWNvbG9yOiAjZDJkYmRkO1xyXG59XHJcbi5oZWFkaW5nX3N0eWxlIHtcclxuICAgIHBhZGRpbmc6IDMwcHggMDtcclxuICAgIHRleHQtYWxpZ246IGNlbnRlcjtcclxuICAgIGZvbnQtZmFtaWx5OiBzYW5zLXNlcmlmO1xyXG4gICAgdGV4dC10cmFuc2Zvcm06IHVwcGVyY2FzZTtcclxuICAgIGZvbnQtc2l6ZTogMTNweDtcclxuICAgIGxldHRlci1zcGFjaW5nOiAycHg7XHJcbiAgICBmb250LXdlaWdodDogNTAwO1xyXG4gICAgY29sb3I6ICM4Njg2ODY7XHJcbiAgICBiYWNrZ3JvdW5kLWNvbG9yOiAjZmZmO1xyXG4gICAgZm9udC1zaXplOiAxLjVyZW07XHJcbiAgICBtYXJnaW4tYm90dG9tOiAzMHB4O1xyXG59XHJcbi5jYXJkcyB7XHJcbiAgICBoZWlnaHQ6IGF1dG87XHJcbiAgICB3aWR0aDogMTAwJTtcclxufVxyXG4uY2FyZHtcclxuICAgIC8qIG1hcmdpbjoyNXB4OyAqL1xyXG4gICAgbWFyZ2luOiA2JTtcclxuICAgIHRyYW5zaXRpb246IGFsbCAwLjRzIGN1YmljLWJlemllcigwLjE3NSwgMC44ODUsIDAsIDEpO1xyXG4gICAgYmFja2dyb3VuZC1jb2xvcjogI2ZmZjtcclxuICAgIHdpZHRoOiAyMS4yNSU7XHJcbiAgICBib3JkZXItcmFkaXVzOiAxMnB4O1xyXG4gICAgYm94LXNoYWRvdzogMHB4IDEzcHggMTBweCAtN3B4IHJnYmEoMCwgMCwgMCwgMC4xICk7XHJcbiAgICBmbG9hdDogbGVmdDtcclxufVxyXG4uY2FyZDpob3ZlciB7XHJcbiAgICBib3gtc2hhZG93OjBweCAzMHB4IDE4cHggLThweCBibGFjaztcclxuICAgIHRyYW5zZm9ybTogc2NhbGUoMS4wNSwgMS4wNSk7XHJcbn1cclxuLmNhcmRfX2ltZyB7XHJcbiAgICB3aWR0aDogMTAwJTtcclxuICAgIGhlaWdodDogMjM1cHg7XHJcbiAgICBib3JkZXItdG9wLWxlZnQtcmFkaXVzOiAxMnB4O1xyXG4gICAgYm9yZGVyLXRvcC1yaWdodC1yYWRpdXM6IDEycHg7XHJcbn1cclxuLmNhcmRfX2luZm8ge1xyXG4gICAgYmFja2dyb3VuZC1jb2xvcjogI2ZmZjtcclxuICAgIGJvcmRlci1ib3R0b20tbGVmdC1yYWRpdXM6IDEycHg7XHJcbiAgICBib3JkZXItYm90dG9tLXJpZ2h0LXJhZGl1czogMTJweDtcclxuICAgIHBhZGRpbmc6IDE2cHggMjRweCAyNHB4IDI0cHg7XHJcbiAgICBiYWNrZ3JvdW5kLWNvbG9yOiAjZmZmO1xyXG59XHJcbi5jYXJkX19jYXRlZ29yeSB7XHJcbiAgICBmb250LWZhbWlseTogc2Fucy1zZXJpZjtcclxuICAgIHRleHQtdHJhbnNmb3JtOiB1cHBlcmNhc2U7XHJcbiAgICBmb250LXNpemU6IDEzcHg7XHJcbiAgICBsZXR0ZXItc3BhY2luZzogMnB4O1xyXG4gICAgZm9udC13ZWlnaHQ6IDUwMDtcclxuICAgIGNvbG9yOiAjODY4Njg2O1xyXG4gICAgYmFja2dyb3VuZC1jb2xvcjogI2ZmZjtcclxufVxyXG5cclxuLmNhcmRfX3RpdGxlIHtcclxuICAgIG1hcmdpbi10b3A6IDVweDtcclxuICAgIG1hcmdpbi1ib3R0b206IDEwcHg7XHJcbiAgICBmb250LWZhbWlseTogc2Fucy1zZXJpZjtcclxuICAgIGJhY2tncm91bmQtY29sb3I6ICNmZmY7XHJcbiAgICB0ZXh0LXRyYW5zZm9ybTogY2FwaXRhbGl6ZTtcclxufVxyXG5idXR0b257XHJcbiAgICBwYWRkaW5nOiA1cHggOHB4O1xyXG4gICAgZm9udC1mYW1pbHk6IHNhbnMtc2VyaWY7XHJcbiAgICB0ZXh0LXRyYW5zZm9ybTogdXBwZXJjYXNlO1xyXG4gICAgZm9udC1zaXplOiAxM3B4O1xyXG4gICAgbGV0dGVyLXNwYWNpbmc6IDJweDtcclxuICAgIGZvbnQtd2VpZ2h0OiA1MDA7XHJcbiAgICBjb2xvcjogIzg2ODY4NjtcclxuICAgIGJhY2tncm91bmQtY29sb3I6ICNmZmY7XHJcbiAgICBvdXRsaW5lOiBub25lO1xyXG4gICAgYm9yZGVyOiAxcHggc29saWQgYmxhY2s7XHJcbiAgICBjdXJzb3I6IHBvaW50ZXI7XHJcbn1cclxuQG1lZGlhKG1heC13aWR0aDo3NjhweCl7XHJcbi5jYXJkIHtcclxuICAgIGZsb2F0OiBub25lO1xyXG4gICAgbWFyZ2luOiA1JTtcclxuICAgIHdpZHRoOiA5MCU7XHJcbn1cclxufSJdLCJzb3VyY2VSb290IjoiIn0= */</style></head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"><h1 class="heading_style">List Of Top 5 Netflix Series In 2023</h1><div class="cards"><div class="card"><img src="./React App_files/R.044a3334c339585819ed14e3ff364f00" alt="mypic" class="card__img"><div class="card__info"><span class="card__category">Netflix original series</span><h3 class="card__title">Heart Stone</h3><a href="https://www.netflix.com/pk/title/81416533" target="blank"><button>Watch Now</button></a></div></div></div><div class="cards"><div class="card"><img src="./React App_files/wallpaper-del-film-mr-bean-s-holiday-63097_jpg_1100x0_crop_q85.jpg" alt="mypic" class="card__img"><div class="card__info"><span class="card__category">Netflix original series</span><h3 class="card__title">Holidays of Mr.bean</h3><a href="https://www.netflix.com/pk/title/70060002" target="blank"><button>Watch Now</button></a></div></div></div><div class="cards"><div class="card"><img src="./React App_files/R.adb466b3778d02c7760f83aeadb55d84" alt="mypic" class="card__img"><div class="card__info"><span class="card__category">Netflix original series</span><h3 class="card__title">project power</h3><a href="https://www.netflix.com/pk/title/80204465" target="blank"><button>Watch Now</button></a></div></div></div><div class="cards"><div class="card"><img src="./React App_files/R.a5d13d3c34a831ff42bc19a5b2067440" alt="mypic" class="card__img"><div class="card__info"><span class="card__category">Netflix original series</span><h3 class="card__title">strangers things</h3><a href="https://www.netflix.com/pk/title/80057281" target="blank"><button>Watch Now</button></a></div></div></div><div class="cards"><div class="card"><img src="./React App_files/OIP.c6EeeMTM74u56R-8UqpQyAHaEK" alt="mypic" class="card__img"><div class="card__info"><span class="card__category">Netflix original series</span><h3 class="card__title">mortal combart</h3><a href="https://www.imdb.com/title/tt0293429/" target="blank"><button>Watch Now</button></a></div></div></div></div>
+    
+  
+
+</body></html>
